@@ -1,0 +1,17 @@
+body{
+  background-color: #191919;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  position: absolute;
+}
+div input[type="text"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #3498db;
+  border-radius: 25px;
+}

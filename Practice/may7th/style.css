@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: white;
+    height: 75px;
+
+    box-shadow: 0 3px 5px grey;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hw{
+    height: 100%;
+    width: 100%;
+}
+/*-------------------------logo----------*/
+/*-----------------------------------------------------*/
+
+.logo{
+    flex: 0.9;
+}
+.google{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+/*---------------------------------------------------------*/
+/*----------------------search options------------*/
+.searchoptions{
+    flex: 2;
+    
+    font-family: khand;
+}
+.options{
+    flex: 1.5;
+}
+.search{
+    flex: .5;
+}
+.search-box{
+    position: relative;
+    padding: 10px ;
+
+    height: 25px;
+    
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 1px 3px #acacac;
+}
+
+.search-box:hover > .search-txt{
+    width: 300px;
+    padding: 0.6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #dcdde1;
+    background: linear-gradient(-90deg, ##f5f6fa, ##dcdde1);
+    color: black;
+    
+}
+
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    text-decoration: none;   
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #718093;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+
+    width: 0px;
+}
+
+.apps-btn
+{
+    background: none;
+    border: none;
+    outline: none;
+}
+/*-------------------------------------------------------*/
+/*-----------------------language image apps--------*/
+.imgappslang{
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+.language{
+    flex: 0.55;
+}
+.lang-box{
+    background-color: white;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+.lang-txt{
+    color: black;
+    background: none;
+    height: 35px;
+    width: 160px;
+
+    font-size: 22px;
+
+    border: none;
+    outline: none;
+
+    padding: 4px;
+    padding-left: 10px;
+}
+.apps{
+    flex: 0.15;
+}
+
+.image{
+    flex: 0.3;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+}

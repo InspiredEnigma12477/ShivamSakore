@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <form class="login-form" action="index.html">
+      <h1>Login</h1>
+
+      <div class="textb">
+        <input type="text">
+        <span data-placeholder="Username"></span>
+      </div>
+
+      <div class="textb">
+        <input type="password">
+        <span data-placeholder="Password"></span>
+      </div>
+
+      <input type="submit" class="logbtn" value="Login">
+
+      <div class="bottom-text">
+        Don't have account? <a href="#">Sign up</a>
+      </div>
+
+    </form>
+
+    <script type="text/javascript">
+      $(".textb input").on("focus",function() {
+        $(this).addClass("focus");
+      });
+
+      <script type="text/javascript">
+        $(".textb input").on("focus",function() {
+          if($(this).val()=="")
+          $(this).removeClass("focus");
+        });
+
+    </script>
+
+  </body>
+</html>
