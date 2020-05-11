@@ -6,7 +6,16 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
-}
+}/*
+.landing-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(120deg,#3498db,#8e44ad);
+}*/
 .app{
     height: 100vh;
     display: flex;
