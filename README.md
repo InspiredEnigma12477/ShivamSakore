@@ -1,4 +1,4 @@
-[![trophy](https://github-profile-trophy.vercel.app/?username=InspiredEnigma12477)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=InspiredEnigma12477&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 # ShivamSakore
